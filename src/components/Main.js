@@ -10,7 +10,7 @@ class Main extends Component {
     }
 
     componentDidMount() {
-        axios.get(`http://ec2-18-218-159-185.us-east-2.compute.amazonaws.com:8080/hello-world`)
+        axios.get(`https://api.developerforfun.com/hello-world`)
             .then(res => {
                 this.setState(
                     {
