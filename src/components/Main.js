@@ -25,7 +25,7 @@ class Main extends Component {
         const {word} = this.state;
         return (
             <div>
-                Main, {word}
+                Yo, Main, {word}
             </div>
         )
     }
